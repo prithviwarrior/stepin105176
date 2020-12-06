@@ -1,4 +1,4 @@
- #include<medicalstoremanagement.h>
+ #include "medicalstoremanagement.h"
 
 
   //required functions for management system
