@@ -5,7 +5,7 @@ PROJECT_NAME = Medical_Store_Management
 BUILD = build
 
 # All source code files
-SRC = Medical_Store_Management.C\
+SRC = Medical_Store_Management.c\
 src/medicalstoremanagement.c\
 
 
