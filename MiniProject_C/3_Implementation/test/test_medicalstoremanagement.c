@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 #include <medicalstoremanagement.h>
-#define PROJECT_NAME "MEDICAL_STORE_MANAGEMENTSYSTEM"
+#define PROJECT_NAME "MEDICALSTOREMANAGEMENTSYSTEM"
 
 /* Prototypes for all the test functions */
 void test_PurchaseMedicine(void);
@@ -58,3 +58,5 @@ void test_do_patientanalysis(void) {
 
   /* Dummy fail*/
 }
+
+

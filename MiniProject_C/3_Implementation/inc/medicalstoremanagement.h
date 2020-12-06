@@ -10,7 +10,7 @@
 
 //header files
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 #include<string.h>
 #include<ctype.h>
 
@@ -77,3 +77,4 @@ int ChangeMedicineDetails(int number);
 
 
 #endif // _MEDICAL_STORE_MANAGEMENT_H_
+
