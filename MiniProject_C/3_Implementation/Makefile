@@ -28,12 +28,12 @@ DOCUMENTATION_OUTPUT = documentation/html
 # Run the target even if the matching name exists
 .PHONY: run clean test  doc all
 
-all:$(SRC) $(BUILD)
-	gcc $(SRC) -o $(PROJECT_OUTPUT).out
+all: $(SRC) $(BUILD)
+	gcc $(SRC) -o $(PROJECT_OUTPUT)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	./$(PROJECT_OUTPUT)
 
 # Document the code using Doxygen
 doc:
