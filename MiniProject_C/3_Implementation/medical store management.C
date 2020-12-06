@@ -1,12 +1,4 @@
-#include<stdio.h>
-#include<conio.h>
-#include<string.h>
-#include<math.h>
-#include<dos.h>
-#include<time.h>
-#include<ctype.h>
-#include<windows.h>
-
+#include "calculator_operations.h"
 COORD coord = {0, 0};
 void gotoxy(int x, int y)
 {
