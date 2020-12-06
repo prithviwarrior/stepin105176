@@ -5,8 +5,8 @@ PROJECT_NAME = Medical Store Management
 BUILD = build
 
 # All source code files
-SRC = medical store management.c\
-src/calculator_operations.c\
+SRC = medical store management.c
+
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
@@ -15,7 +15,7 @@ test/test_calculator_operations.c
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= -Iinc
+
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
@@ -29,7 +29,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test  doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+	gcc $(SRC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
@@ -41,7 +41,7 @@ doc:
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	gcc $(TEST_SRC) -o $(TEST_OUTPUT) -lcunit
 	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`
