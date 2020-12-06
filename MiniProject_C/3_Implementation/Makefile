@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Medical Store Management
+PROJECT_NAME = Medical_Store_Management
 
 # Output directory
 BUILD = build
