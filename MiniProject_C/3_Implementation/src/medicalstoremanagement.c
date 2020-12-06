@@ -128,13 +128,13 @@
     {
      printf("Enter review(less than 100 Characters)\n");
      fflush(stdin);
-     gets(m[i].info);
+     scanf(m[i].info);
     }
     if(c==1)
     {
      printf("Enter review(less than 100 Characters)\n");
      fflush(stdin);
-     gets(info);
+     scanf(info);
      strcat(m[i].info,"; ");
      strcat(m[i].info,info);
     }
@@ -154,7 +154,7 @@
    char name[100];
   printf("KnowInfoAboutMedicine\nEnter Name of the medicine you want to see Review and Info\n");
   fflush(stdin);
-  gets(name);
+  scanf(name);
   for(i=0;i<number;i++)
   {
    if(strcmp(m[i].medicneName,name)==0)
@@ -220,17 +220,17 @@
   fflush(stdin);
   printf("Enter Medicine Name\n");
   fflush(stdin);
-  gets(name);
+  scanf(name);
   strcpy(m[number].medicneName,name);
   printf("Enter Company Name\n");
   fflush(stdin);
-  gets(m[number].Company);
+  scanf(m[number].Company);
   printf("Enter Manufactured Date\n");
   fflush(stdin);
-  gets(m[number].Mfg_Date);
+  scanf(m[number].Mfg_Date);
   printf("Enter Expiry Date\n");
   fflush(stdin);
-  gets(m[number].Exp_Date);
+  scanf(m[number].Exp_Date);
   printf("Enter Quantity\n");
   fflush(stdin);
   scanf("%d",&(m[number].quantity));
@@ -312,7 +312,7 @@ int DeleteMedicineStore(int number)
          char name[100];
          printf("Enter Name to be changed\n");
          fflush(stdin);
-         gets(name);
+         scanf(name);
          strcpy(m[i].medicneName,name);
          printf("Medicine Name changed Successfully\n");
         }
@@ -321,7 +321,7 @@ int DeleteMedicineStore(int number)
          char company[100];
          printf("Enter company to be changed\n");
          fflush(stdin);
-         gets(company);
+         scanf(company);
          strcpy(m[i].Company,company);
          printf("Company changed Successfully\n");
         }
@@ -330,7 +330,7 @@ int DeleteMedicineStore(int number)
          char mfg[11];
          printf("Enter Manufacturing date to be changed\n");
          fflush(stdin);
-         gets(mfg);
+         scanf(mfg);
          strcpy(m[i].Mfg_Date,mfg);
          printf("Manufacturing Date changed Successfully\n");
         }
@@ -339,7 +339,7 @@ int DeleteMedicineStore(int number)
          char exp[11];
          printf("Enter Expiry date to be changed\n");
          fflush(stdin);
-         gets(exp);
+         scanf(exp);
          strcpy(m[i].Exp_Date,exp);
          printf("Expiry Date changed Successfully\n");
         }
@@ -348,7 +348,7 @@ int DeleteMedicineStore(int number)
          char info[100];
          printf("Enter Info to be changed(Less than 100 Characters)\n");
          fflush(stdin);
-         gets(info);
+         scanf(info);
          strcpy(m[i].info,info);
          printf("Info changed Successfully\n");
         }
