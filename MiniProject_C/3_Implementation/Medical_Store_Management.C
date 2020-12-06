@@ -2,6 +2,7 @@
 
 
   //required functions for management system
+/*
  int PurchaseMedicine(int number);//medicine to be purchased
  int EnterInfoAboutMedicine(int number);//information about any medicine and editing the information
  int KnowInfoAboutMedicine(int number);//about any medicine
@@ -9,7 +10,7 @@
  int AddMedicineinStore(int number,struct Medicine m[]);//medicine info to store
  int DeleteMedicineStore(int number);//delete a medicine from store
  int ChangeMedicineDetails(int number);//changing the medicine details
-
+*/
  //main function
 
 //int test_main();
