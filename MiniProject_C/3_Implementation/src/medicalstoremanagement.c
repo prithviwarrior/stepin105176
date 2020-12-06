@@ -1,4 +1,4 @@
-#include<medicalstoremanagement.h>
+#include "medicalstoremanagement.h"
 
 //medicine to be purchased Function
  int PurchaseMedicine(int number)
