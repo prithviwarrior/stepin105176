@@ -7,3 +7,5 @@
 ![.github/workflows/valgrind.yml](https://github.com/prithviwarrior/stepin105176/workflows/.github/workflows/valgrind.yml/badge.svg)
 
 ![C/C++ CI](https://github.com/stepin105361/calc/workflows/C/C++%20CI/badge.svg)
+
+![Unit testing](https://github.com/prithviwarrior/stepin105176/workflows/Unit%20testing/badge.svg)
