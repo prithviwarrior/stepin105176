@@ -28,7 +28,7 @@ DOCUMENTATION_OUTPUT = documentation/html
 # Run the target even if the matching name exists
 .PHONY: run clean test  doc all
 
-all: $(SRC) $(BUILD)
+all:$(SRC) $(BUILD)
 	gcc $(SRC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
