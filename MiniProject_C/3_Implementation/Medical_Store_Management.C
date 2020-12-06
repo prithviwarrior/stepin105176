@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 //#include<conio.h>
 #include<string.h>
 #include<math.h>
@@ -6,7 +6,8 @@
 #include<time.h>
 #include<ctype.h>
 #include<windows.h>
-
+*/
+#include <bits/stdc++.h>
 COORD coord = {0, 0};
 void gotoxy(int x, int y)
 {
