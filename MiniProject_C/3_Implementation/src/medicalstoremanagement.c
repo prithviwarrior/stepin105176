@@ -58,7 +58,7 @@
   {
    printf("Enter Name to search and Purchase\n");
    fflush(stdin);
-   gets(name);
+   scanf("name");
    for(i=0;i<number;i++)
    {
     if(strcmp(m[i].medicneName,name)==0)
